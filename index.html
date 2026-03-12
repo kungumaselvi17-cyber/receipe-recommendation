@@ -17,7 +17,7 @@
         <button type="submit">Find Recipes</button>
     </form>
 
-    {% if recipes %}
+   
         <h2>Recommended Recipes</h2>
 
         {% for recipe in recipes %}
@@ -25,8 +25,7 @@
             <h3>{{ recipe.recipe }}</h3>
             <p>{{ recipe.instructions }}</p>
         </div>
-        {% endfor %}
-    {% endif %}
+  
 </div>
 
 </body>
